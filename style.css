@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  /* width: 100%; */
+  /* min-height: 100vh; */
+  font-size: 14px;
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+line-height: 22px;
+}
+
+.saylaniform{
+  /* display: flex; */
+  margin: 0 auto;
+  width: 60%;
+}
+
+.formheader{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;  
+}
+/* code imported from digital ocean website */
+
+.formheader {
+  position: relative;
+}
+
+.formheader:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url('./headerbackgroung.avif');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+..formheader {
+  position: relative;
+}
+/* code imported from digital ocean website */
+.formheader .socialicons img{
+
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+  object-fit: cover;
+}
+
+.formheaderrow{
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+
+.socialicons, .portallink, .formheaderheading{
+  width: 33%;
+
+}
+.socialicons {
+  display: flex;
+  width: fit-content;
+  /* justify-content: space-around; */
+  margin: 0 20px; 
+}
+
+.socialicons .instaicon{
+  margin: 0 20px;
+}
+.formheaderheading{
+  text-align: center;
+}
+
+
+.formheaderheading h2{
+  padding: 0 40px;
+  font-size: 30px;
+  color:rgba(0, 0, 0, .85);
+  font-weight: 600;
+  line-height: 1.35;
+}
+.portallink{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;  
+  border: 1px solid;
+  /* margin: 5px 40px; */
+  width: fit-content;  
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.portallink button{
+  background-color: #fff !important;
+  color: #0d6db7;
+  border-radius: none;
+  border: none;
+  padding: 2px 0;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+a{
+   
+}
+
+.formtabsgroup {
+    width: 100%;
+    }
+
+.formtabrow{
+  width: inherit;
+  display: flex;
+}
+.formtab {
+  width: 100%;
+  /* padding: 10px; */
+  margin: 5px 0 5px 30px;
+}
+.formtablabel {
+  color: rgb(13, 109, 183);
+}
+.formtablabel .formtabfield {
+  margin-top: 5px;
+  /* width: 300px; */
+      /* color: rgb(102, 102, 102); */
+    
+}
+
+.formtab.uploadpic {
+  /* display: flex; */
+  width: fit-content;
+}
+.formtab.uploadguidline {
+  /* display: flex; */
+  margin-left: 0 !important;
+
+}
+
+
+input,
+select {
+  width: 100%;
+  padding: 18px;
+  border-radius: 5px;
+  border-color: #8DC63F;
+  /* color: rgb(102, 102, 102); */
+}
+
+.formtabsgroup button{
+  width: 100%;
+  padding: 18px;
+  border-radius: 5px;
+  background-color: #0D6DB7;
+  color: white;
+  text-transform: uppercase;
+  font-family:signika;
+  font-size: 16px;
+  border-color: none;
+}
